@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<ficha>
+
+    <visitante>
+        <identificacao>Amigo</identificacao>
+        <nome>Matheus</nome>
+        <cpf>162.154.60.25</cpf>
+    </visitante>
+
+    <paciente> 
+        <nome>José Saulo</nome>
+        <id>371</id>   
+    </paciente>
+
+    <internacao>
+        <andar>3</andar>
+        <quarto>0187</quarto>
+        <leito>4</leito>
+    </internacao>
+
+</ficha>

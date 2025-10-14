@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloco de Notas</title>
+</head>
+<body>
+    <h1>Bloco de Notas</h1>
+    <ul>
+        <li>
+            <a href="/">Inicio</a>
+        </li>
+        <li>
+            <a href="/notas">Notas</a>
+        </li>
+    </ul>
+
+        <form action="/notas" method="post">
+            <input type="text" name="anotacao">
+            <input type="submit" value="➕">
+        </form>
+    <ul>
+        {% for item in data %}
+            <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+    
+</body>
+</html>
